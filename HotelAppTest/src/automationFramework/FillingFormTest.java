@@ -8,6 +8,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+//*  Name:       Nikunj Rathod
+//*  Date:       2021-Apr-4
+//*  Purpose:    QA Project
+
 public class FillingFormTest {
 
 	public static void main(String[] args) {
@@ -70,24 +74,18 @@ public class FillingFormTest {
 			{
 				//driver.get("http://adactinhotelapp.com/BookHotel.php");
 				
-				WebElement firstName = driver.findElement(By.id("first_name"));
-				
+				WebElement firstName = driver.findElement(By.id("first_name"));				
 				
 				WebElement lastName = driver.findElement(By.id("last_name"));
-				
-				
+								
 				WebElement address = driver.findElement(By.id("address"));
-				
-				
+								
 				WebElement ccNum = driver.findElement(By.id("cc_num"));
-				
-				
+								
 				WebElement ccType = driver.findElement(By.id("cc_type"));
-				
-				
+								
 				WebElement ccMonth = driver.findElement(By.id("cc_exp_month"));
-				
-				
+								
 				WebElement ccYear = driver.findElement(By.id("cc_exp_year"));
 				
 				WebElement ccCvv = driver.findElement(By.id("cc_cvv"));
